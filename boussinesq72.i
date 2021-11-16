@@ -136,6 +136,11 @@ IC_pressure = 4165
     variable = u
     function = 'gradient_u'
   []
+  [pressure_gradient]
+    type = FunctionIC
+    variable = pressure
+    function = 'gradient_pressure'
+  []
 []
 
 [Functions]
